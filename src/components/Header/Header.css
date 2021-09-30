@@ -1,0 +1,24 @@
+
+
+@media (max-width: 640px) { 
+    .menu{
+        position: relative;
+        display: none;
+        transition: all 0.5s ease-in-out;
+        background: #111827;
+        z-index: 10000000;
+     }
+     .menu#hidden{
+         position: absolute;
+         top: 90px;
+         left: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         border-top: 1px solid green;
+         background: #111827;
+         width: 100%;
+         height: 100vh;
+     }
+}

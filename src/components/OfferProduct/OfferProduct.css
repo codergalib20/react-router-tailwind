@@ -1,0 +1,6 @@
+.color-image{ 
+  background-image: url(https://i.ibb.co/TK5c8gP/giphy.gif);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
